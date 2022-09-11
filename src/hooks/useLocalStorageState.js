@@ -14,7 +14,7 @@ export default function useLocalStorageState(key, defaultValue, { serialize = JS
 	})
 
 	const prevKeyRef = useRef(key)
-
+ 
 	useEffect(() => {
 		const prevKey = prevKeyRef.current
 		if (prevKey !== key) {

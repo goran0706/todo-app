@@ -11,7 +11,7 @@ const useStyles = createStyles(theme => ({
 		borderRadius: 1000,
 		paddingLeft: theme.spacing.sm,
 		paddingRight: 4,
-		width: 136,
+		width: 136, 
 		height: 36,
 	},
 

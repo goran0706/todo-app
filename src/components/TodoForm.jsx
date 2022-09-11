@@ -13,7 +13,7 @@ const useStyles = createStyles(theme => ({
 		},
 	},
 }))
-
+ 
 export default function TodoForm({ handleSubmission }) {
 	const { classes } = useStyles()
 	const form = useForm({ initialValues: { todo: '' } })

@@ -14,7 +14,7 @@ export default function TodoList({ data, updateTask, deleteTask }) {
 
 	return (
 		<List className={classes.list}>
-			{data.map(todo => (
+			{data.map(todo => ( 
 				<TodoItem key={todo.id} todo={todo} updateTask={updateTask} deleteTask={deleteTask} />
 			))}
 		</List>
